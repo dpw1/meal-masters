@@ -1,0 +1,328 @@
+
+
+/* Big tablets to 1200px */
+@media only screen and (max-width: 1200px){
+
+	.row{
+		padding: 0 2%;
+	}
+
+/* Header */
+	.logo{
+		margin-left: 5%;
+	}
+
+	.main-nav{
+		margin-right: 5%;
+	}
+
+/* Feature's Section */
+	
+	.section-features{
+		padding: 80px 2%;
+		text-align: center;
+	}
+
+/* Meals showcase */
+	.meals-showcase{
+		width: 100%;
+		height: auto;
+	}
+
+	.meals-showcase li{
+		height: 25%;
+		width: 50%;
+	}
+
+/* How it works */
+	.section-steps{
+		padding: 80px 2%;
+		background-color: #F4F4F4;
+	}
+
+/* Cities */
+	.section-cities{
+		padding: 80px 2%;
+		font-size: 90%;
+	}
+
+	.section-cities img{
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.section-cities h3{
+		font-size: 95%;
+	}
+
+
+/* Customer's review */
+	.section-review{
+		padding: 80px 2% ;
+	}
+
+/* Form */
+
+	.contact-form{
+		margin-left: 5%;
+		width: 90%;
+
+	}
+/* Footer */
+	.footer-nav{
+		margin-left: 3%;
+	}
+}
+
+
+/* Small tablets to big tablets: 768px to 1023px */
+@media only screen and (max-width: 1023px){
+	
+	body{
+		font-size: 18px;
+	}
+
+	section:not(.section-meals){
+		padding: 60px 0;	
+	}
+/* Header */
+	.logo{
+		height: 65px;
+	}
+
+/* Steps */
+
+	.section-steps a img{
+		height: 45px;
+	}
+
+/* Cities */
+
+	.section-cities ul li i{
+		margin-right: 5px;
+	}
+
+/* Section features */
+
+	.long-copy{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+/* */
+
+	.section-price{
+		font-size: 90%;
+	}
+
+	.plan-box{
+		width: 100%;
+		margin-left: 0;
+	}
+
+/* FOoter */
+
+	.footer-nav a:link,
+	.footer-nav a:visited{
+		margin-right: 15px;
+	}
+
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px){
+
+	.row{
+		padding: 0 4%;
+	}
+
+	.col{
+		width: 100%;
+		margin: 0 0 3.5% 0;
+	}
+
+	body{
+		font-size: 17px;
+	}
+
+	section:not(.section-meals){
+		padding: 40px 0;
+	}
+
+	h1{
+		font-size: 180%;	
+	}
+
+	h2{
+		font-size: 150%;	
+	}
+
+	/* Header */
+
+	.logo{
+		height: 60px;
+		margin-left: 5%;
+	}
+	
+	.mobile-nav-btn{
+		display: block;
+		margin-top: 10px;
+		z-index: 100;
+	}
+
+	.main-nav{
+		height: 100%;
+		margin: 0;
+		padding-top: 350px;
+		padding-right: 40px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding-top: 45px;
+		text-align: center;
+		z-index: 200;
+
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0a08+0,161616+100 */
+		background: #424242;
+
+		-webkit-font-smoothing: subpixel-antialiased;
+		transform: translateX(100%);
+		transition: transform 0.6s ease;
+	}
+
+	/* Opens/close the side menu*/
+	.main-nav.open{
+		transform: translateX(0%);
+	}
+
+	.main-nav li{
+		display: block;
+	}
+ 
+	.sticky .main-nav{
+		margin: 0;
+	}
+
+	.main-nav li a:link,
+	.main-nav li a:visited,
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited{
+		color: #B2B2B2;
+		padding: 10px 0;
+		display: block;
+	}
+
+	.main-nav li a:hover,
+	.main-nav li a:active,
+	.sticky .main-nav li a:hover,
+	.sticky .main-nav li a:active{
+		border-bottom: 2px solid transparent;
+		color: white;
+	}
+
+	.main-nav a:last-child i{
+		font-size: 120%;
+		color: white;
+	}
+
+	
+
+	.section-steps{
+
+	}
+
+	.app-screen{
+		height: 400px;
+		float: none;
+		margin-right: 0;
+	}
+
+	.steps-box {
+		text-align: center;
+	}
+
+	.work-steps > p:not(div){
+		padding-top: 2%;
+	}
+
+	.work-steps div > p{
+		margin: 5px;
+	}
+
+	/* Cities */
+
+	.section-cities img{
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+
+	.section-cities ul{
+		width: 100%;
+		font-size: 120%;
+		letter-spacing: 50px;
+	}
+
+	.section-cities ul li:last-child{
+		margin-bottom: 30px;
+	}
+
+	.section-cities figure:last-child ul li:last-child{
+		margin-bottom: 0;
+	}
+
+	/* Form */
+
+	.contact-form div > div:last-child{
+		margin-bottom: 25px;
+	}
+
+	.contact-form div:last-child > div:last-child > input{
+		width: 100%;
+	}
+
+	/* Footer */
+	.footer-nav{
+	}
+
+	.footer-social,
+	.footer-nav{
+		float: none;
+		text-align: center;
+	}
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+
+	body{
+		font-size: 14px;
+	}
+
+	/* Header */
+
+	.logo{
+		height: 50px;
+	}
+	
+	header div a{
+		margin-bottom: 5%;
+	}
+}
+
+/* If landscape  */
+@media screen and (max-width: 598px) and (orientation: landscape) {
+
+	.logo{
+		margin-left: 3%;
+		height: 45px;
+	}
+
+	h1{
+		margin-top: 10%;
+	}
+}

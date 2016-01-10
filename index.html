@@ -1,0 +1,511 @@
+<!-- 
+	Coded by Diego Fortes, 2015 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="description of the website for google">
+
+	<!-- normalize.css ~ alternative to CSS resets -->
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+
+	<!-- grid.css ~ fluid grid layout for responsiveness. Downloaded at http://www.responsivegridsystem.com/-->
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+
+	<!-- Ionicons for icons -->
+	<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+
+	<!-- normalize.css ~ alternative to CSS resets -->
+	<link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+
+	<!-- this page's CSS -->
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+	<!-- Media Queries -->
+	<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic' rel='stylesheet' type='text/css'>
+
+	<!-- Favicon -->
+	<link href="favicon.ico" rel="icon" type="image/x-icon" />
+	
+	<title>Meal Masters</title>
+</head>
+<body>
+
+	<!-- Header -->
+	<header>
+		<nav>
+			<div class="row">
+				<img src="resources/img/logo.png" alt="Logo image" class="logo">
+
+				<!-- Navbar -->
+				<ul class="main-nav js--main-nav">
+					<li><a href="#features">Food delivery</a></li>
+					<li><a href="#how-it-works">How it works</a></li>
+					<li><a href="#cities">Our cities</a></li>
+					<li><a href="#prices">Pricing</a></li>
+					<li><a class="mobile-nav-btn js--nav-btn"><i class="ion-close-round"></i></a></li>
+				</ul>
+
+				<!-- Mobile nav menu button -->
+				<a class="mobile-nav-btn js--nav-btn"><i class="ion-navicon-round"></i></a>
+			</div>
+		</nav>
+		
+		<!-- Header's Text -->
+		<div class="header-bg-text-box">
+			<h1>No more excuses <br/>for healthy eating.</h1>
+			<a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+			<a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+		</div>
+	</header>
+
+	<!-- Features Section -->
+	<section class="section-features js--section-features" id="features">
+
+		<!-- Up section -->
+		<div class="row">
+			<h2>GET FOOD FAST &mdash; NOT FAST FOOD</h2>
+			<p class="long-copy text-center">Hello, we&rsquo;re Meal Masters, your new premium food delivery service. We know you&rsquo;re always busy. No time for cooking. So let us take care of that, we&rsquo;re really good at it, we promise!</p>
+		</div>
+
+		<!-- Rows -->
+		<div class="row js--wp-1">
+			<div class="col span-1-of-4 box">
+				<i class="ion-ios-infinite icon-big"></i>
+				<h3>UP TO 365 DAYS/YEAR</h3>
+				<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-clock icon-big"></i>
+				<h3>READY IN 20 MINUTES</h3>
+				<p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-fork icon-big"></i>
+				<h3>100% ORGANIC FOOD</h3>
+				<p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+			</div>
+			<div class="col span-1-of-4 box">
+				<i class="ion-checkmark-round icon-big"></i>
+				<h3>ORDER ANYTHING YOU WANT</h3>
+				<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Meals Section -->
+	<div class="section-meals clearfix">
+		<!-- First row -->
+		<ul class="meals-showcase">
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/1.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/2.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/3.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/4.jpg" alt="">
+				</figure>
+			</li>					
+		</ul>
+
+		<!-- Second row -->
+		<ul class="meals-showcase">
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/5.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/6.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/7.jpg" alt="">
+				</figure>
+			</li>
+			<li>
+				<figure class="meal-img">
+					<img src="resources/img/8.jpg" alt="">
+				</figure>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Section steps -->
+	<section class="section-steps" id="how-it-works">
+		<div class="row">
+			<h2>How it works &mdash; Simple & yummy</h2>
+		</div>
+
+		<div class="row">
+			<!-- iPhone image -->
+			<div class="col span-1-of-2 steps-box js--wp-2">
+				<img src="resources/img/iphone.png" alt="iPhone image" class="app-screen">
+			</div>
+
+			<!-- Steps -->
+			<div class="col span-1-of-2">
+
+				<!-- 1 -->
+				<div class="work-steps">
+					<div><p>1</p></div>
+					<p>Choose the best subscription plan that best fits your needs and sign up today.</p>
+				</div>
+
+				<!-- 2 -->
+				<div class="work-steps">
+					<div><p>2</p></div>
+					<p>Order your delicious meal using our mobile app or website. Or you can even call <b>000-000000</b></p>
+				</div>
+
+				<!-- 3 -->
+				<div class="work-steps">
+					<div><p>3</p></div>
+					<p>Enjoy your meal after less than 20 minutes. Repeat the process.</p>
+				</div>
+
+				<!-- buttons -->
+				<a href="#"><img src="resources/img/download-app-android.png" alt="Android App Download"></a>
+				<a href="#"><img src="resources/img/download-app-iphone.svg" alt="iPhone App Download"></a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section cities -->
+	<section class="section-cities" id="cities">
+
+		<div class="row">
+			<h2>We're currently in these cities</h2>
+		</div>
+
+		<!-- Images -->
+		<div class="row">
+
+			<!-- Lisbon -->
+			<figure class="col span-1-of-4">
+				<img src="resources/img/lisbon.jpg" alt="Lisbon image">
+				<h3>Lisbon</h3>
+				<ul>
+					<li><i class="ion-person"></i>1900+ happy eaters!</li>
+					<li><i class="ion-star"></i>20+ top chefs</li>
+					<li><i class="ion-social-twitter"></i><a href="#">@mealm_lisbon</a></li>
+				</ul>
+			</figure>
+
+			<!-- Berlin -->
+			<figure class="col span-1-of-4">
+				<img src="resources/img/berlin.jpg" alt="Berlin image">
+				<h3>Berlin</h3>
+				<ul>
+					<li><i class="ion-person"></i>1100+ happy eaters!</li>
+					<li><i class="ion-star"></i>35+ top chefs</li>
+					<li><i class="ion-social-twitter"></i><a href="#">@mealm_berlin</a></li>
+				</ul>
+			</figure>
+
+			<!-- San Francisco -->
+			<figure class="col span-1-of-4">
+				<img src="resources/img/san-francisco.jpg" alt="San Franciso image">
+				<h3>San Francisco</h3>
+				<ul>
+					<li><i class="ion-person"></i>2500+ happy eaters!</li>
+					<li><i class="ion-star"></i>200+ top chefs</li>
+					<li><i class="ion-social-twitter"></i><a href="#">@mealm_sf</a></li>
+				</ul>
+			</figure>
+
+			<!-- London -->
+			<figure class="col span-1-of-4">
+				<img src="resources/img/london.jpg" alt="London image">
+				<h3>London</h3>
+				<ul>
+					<li><i class="ion-person"></i>9000+ happy eaters!</li>
+					<li><i class="ion-star"></i>390+ top chefs</li>
+					<li><i class="ion-social-twitter"></i><a href="#">@mealm_london</a></li>
+				</ul>
+			</figure>
+		</div>
+	</section>
+	
+	<!-- Customer's review section -->
+	<section class="section-review">
+		<div class="row">
+			<h2>Our customers can't live without us</h2>
+		</div>
+
+		<div class="row">
+
+			<!-- Customer 1 -->
+			<div class="col span-1-of-3">
+				<blockquote>Meal Masters is just awesome! I just launched a startup which leaves me with no time for cooking, so Meal Masters is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+					<cite>
+						<img src="resources/img/customer-1.jpg" alt="Alberto Duncan (customer)">Alberto Duncan
+					</cite>
+				</blockquote>
+			</div>
+
+			<!-- Customer 2 -->
+			<div class="col span-1-of-3">
+				<blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+					<cite><img src="resources/img/customer-2.jpg" alt="Joana Silva (customer)">Joana Silva
+					</cite>
+				</blockquote>
+			</div>
+
+			<!-- Customer 3 -->
+			<div class="col span-1-of-3">
+				<blockquote>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Meal Masters. Best food delivery service in the Bay Area. Keep up the great work!
+					<cite><img src="resources/img/customer-3.jpg" alt="Milton Chapman (customer)">Milton Chapman
+					</cite>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Pricing  -->
+	<section class="section-price" id="prices">
+		<div class="row">
+			<h2>Start eating healthy today</h2>
+		</div>
+		<div class="row">
+
+			<!-- Premium Plan -->
+			<div class="col span-1-of-3 js--wp-4">
+				<div class="plan-box">
+					<div>
+						<h3>Premium</h3>
+						<p class="price-month">$399<span>/month</span></p>
+						<p class="price-meal">That's only $13.30 per meal!</p>
+					</div>
+
+					<!-- lIST -->
+					<div>
+						<ul>
+							<li><i class="ion-checkmark-round"></i>1 meal everyday.</li>
+							<li><i class="ion-checkmark-round"></i>Order 24/7</li>
+							<li><i class="ion-checkmark-round"></i>Access to newest creations</li>
+							<li><i class="ion-checkmark-round"></i>Free delivery</li>
+						</ul>
+					</div>
+
+					<!-- Button -->
+					<div>
+						<a href="#" class="btn btn-full">Sign up now</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Pro Plan -->
+			<div class="col span-1-of-3">
+				<div class="plan-box">
+					<div>
+						<h3>Pro</h3>
+						<p class="price-month">$149<span>/month</span></p>
+						<p class="price-meal">That's only $14.90 per meal!</p>
+					</div>
+
+					<!-- List -->
+					<div>
+						<ul>
+							<li><i class="ion-checkmark-round"></i>1 meal 10 days/month.</li>
+							<li><i class="ion-checkmark-round"></i>Order 24/7</li>
+							<li><i class="ion-checkmark-round"></i>Access to newest creations</li>
+							<li><i class="ion-checkmark-round"></i>Free delivery</li>
+						</ul>
+					</div>
+					
+					<!-- Button -->
+					<div>
+						<a href="#" class="btn btn-ghost">Sign up now</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Starter Plan -->
+			<div class="col span-1-of-3">
+				<div class="plan-box">
+					<div>
+						<h3>Starter</h3>
+						<p class="price-month">$19<span>/meal</span></p>
+						<p class="price-meal">&nbsp;</p>
+					</div>
+				
+					<!-- lIST -->
+					<div>
+						<ul>
+							<li><i class="ion-checkmark-round"></i>1 meal</li>
+							<li><i class="ion-checkmark-round"></i>Order from 8am to 12pm</li>
+							<li><i class="ion-close-round"></i><span style="visibility: hidden">Access to newest creations</span></li>
+							<li><i class="ion-checkmark-round"></i>Free delivery</li>
+						</ul>
+					</div>
+
+					<!-- Button -->
+					<div>
+						<a href="#" class="btn btn-ghost">Sign up now</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Contact form section -->
+	<section class="section-form">
+		<div class="row">
+			<h2>Questions, suggestions or compliments?</h2>
+		</div>
+		
+		<div class="row">
+			<form method="post" action="#" class="contact-form">
+				<!-- "Name" label & input -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="name">Name</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<input type="text" name="name" id="name" placeholder="Name" required>
+					</div>
+				</div>
+			
+				<!-- "E-mail" label & input -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="email">E-mail</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<input type="email" name="email" id="email" placeholder="E-mail" required>
+					</div>
+				</div>
+			
+				<!-- "Find us" label & select -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="find-us">How did you find us?</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<select name="find-us" id="find-us">
+							<option value="friends">Friends</option>
+							<option value="search-engine">Search Engines</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+				</div>
+			
+				<!-- "Newsletter" label & select -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="newsletter">Newsletter</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<input type="checkbox" name="newsletter" id="newsletter" checked> Yes, please.
+					</div>
+				</div>
+			
+				<!-- "Message" label & select -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="msg">Drop us a line!</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<textarea name="msg" id="msg" placeholder="Message" rows="4" required></textarea>
+					</div>
+				</div>
+			
+				<!-- Send button -->
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="msg">&nbsp;</label>
+					</div>
+			
+					<div class="col span-2-of-3">
+						<input type="submit" value="Send it">
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="row">
+			<div class="col span-1-of-2">
+				<ul class="footer-nav">
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">iOs App</a></li>
+					<li><a href="#">Android App</a></li>
+				</ul>
+			</div>
+
+			<div class="col span-1-of-2 ">
+				<ul class="footer-social">
+					<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+					<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+					<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+					<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="row ">
+				<p>Copyright &copy; 2015 by Meal Masters. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- ********************* -->
+	<!-- OLDER BROWSERS FIXES -->
+	<!-- ********************* -->
+
+	<!-- fast & lightweight polyfill for min/max-width CSS3 Media Queries -->
+	<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"> </script>
+
+	<!-- enable use of HTML5 sectioning elements in legacy Internet Explorer. -->
+	<script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"> </script>
+
+	<!-- emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8 -->
+	<script src="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+
+	<!-- ********************* -->
+	<!-- JAVASCRIPT STUFF -->
+	<!-- ********************* -->
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Waypoints jQuery - triggers function when scrolling -->
+	<script src="vendors/js/jquery.waypoints.min.js"></script>
+
+	<!-- This page's javascript file -->
+	<script src="resources/js/script.js"></script>
+
+
+	<!-- LiveReload -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
